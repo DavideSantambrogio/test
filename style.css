@@ -1,0 +1,82 @@
+ /* css riga 90  */
+
+ /* # = id */
+ #main-title { 
+    color: red;}
+
+ /* tutti gli elemeti con quel tag */
+ section {
+    color: green;
+    font-size: 24px;
+}
+
+ /* . seleziona tute le classi con quel nome */
+ .gino {
+    color: blue;
+    font-size: larger;
+}
+.yellow{ 
+    color: yellow;
+}
+
+.yellow .inner-text {
+    color: pink;
+}
+
+.container{
+    background-color: gray;
+}
+
+.square {
+    width: 100px; /* largezza */ 
+    height: 100px; /* altezza */
+    background-color: aqua;
+    border-width: 3px ;
+    border-color: black;
+    border-style: solid;
+}
+
+.square {
+    width: 100px; /* largezza */ 
+    height: 100px; /* altezza */
+    background-color: aqua;
+    border 3px ; black; solid;
+}
+
+#square {
+    width: 100px; /* largezza */ 
+    height: 100px; /* altezza */
+    background-color: aqua;
+    border-width: 3px ;
+    border-bottom: orange;
+    border-style: dotted;
+}
+/* con immagini settare solo width o solo height */
+
+.font{
+    font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px
+}
+
+.text {
+    text-align: center;
+    text-decoration: line-through;
+
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 3px ; black; solid;
+    background-image: url(img/coastal-wash-web.webp);
+    /* se il percorso dell' immagine è fuori dalla cartella del css usa ../ prima del nome dell'immagine  ; */
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+ /* le misure in percentuale si riferiscono normalmenta alla misura dello schermo, se inserito in un container con misure fisse diventa in base alle misure del container */
