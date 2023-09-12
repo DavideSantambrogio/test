@@ -79,4 +79,35 @@
     background-size: contain;
 }
 
- /* le misure in percentuale si riferiscono normalmenta alla misura dello schermo, se inserito in un container con misure fisse diventa in base alle misure del container */
+/* le misure in percentuale si riferiscono normalmenta alla misura dello schermo, se inserito in un container con misure fisse diventa in base alle misure del container */
+
+.padding{
+    /* interno */
+    padding-top:  ;
+    padding-right:  ;
+    padding-bottom: ;
+    padding-left:  ; 
+}
+
+.margin{
+    /* esterno */
+    margin-top:  ;
+    margin-right:  ;
+    margin-bottom: ;
+    margin-left:  ; 
+
+    margin: 0 auto; /* per centrare */
+}
+
+/* reset DA USARE OGNI VOLTA CHE SI CREA UN NUOVO FILE CSS */
+
+*{
+    margin: 0; /* azzera tutti i margini */
+    padding: 0; /* azzera tutti i padding */
+    box-sizing: border-box;/* per non falsare le misure utilizzare */
+}
+
+body{
+    /* font */
+    /* font-family: copiare set css google.font; */
+}
